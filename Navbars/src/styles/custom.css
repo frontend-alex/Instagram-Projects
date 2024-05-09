@@ -1,0 +1,8 @@
+.sidebar-first-navbar{
+    @apply fixed flex flex-col gap-5 w-3/4 min-h-screen -left-[100%] transition-all bg-white top-0 border-r p-5
+}
+
+.sidebar-first-navbar.active{
+    left: 0;
+}
+
